@@ -24,11 +24,9 @@ body {
   font: var(--mat-sys-body-medium);
   margin: 0;
 
-  background-image: url('/background.png');
+  background-image: url('../public/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #ffffff;
-  margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
 }
