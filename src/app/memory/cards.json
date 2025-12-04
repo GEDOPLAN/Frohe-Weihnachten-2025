@@ -20,15 +20,15 @@
     "image":  "/cards/pacman.png"
   },
   {
-    "identifier":  "XX",
-    "image":  "/cards/XX.png"
+    "identifier":  "DUKE",
+    "image":  "/cards/duke.png"
   },
   {
     "identifier":  "BERLIN",
     "image":  "/cards/berlin.png"
   },
   {
-    "identifier":  "E",
-    "image":  "tbd"
+    "identifier":  "CODE",
+    "image":  "/cards/code.png"
   }
 ]
