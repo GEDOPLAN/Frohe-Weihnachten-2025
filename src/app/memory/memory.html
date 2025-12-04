@@ -1,9 +1,9 @@
 <mat-card>
-    @for (c of cardsInGame(); track c) {
-        <gedx2025-memory-card [card]="c" (clicked)="toggleCard(c)" [enabled]="!boardDisabled()"></gedx2025-memory-card>
+    @for (c of memoryStore.entities(); track c) {
+        <gedx2025-memory-card [card]="c" (clicked)="memoryStore.openCard(c)" [enabled]="!memoryStore.boardDisabled()"></gedx2025-memory-card>
     }
 </mat-card>
-@if (gameCompleted()) {
+@if (memoryStore.gameComplete()) {
     <div class="message" animate.enter="fade">
             <img src="/christmas.png" width="100px"/>
         <h1>

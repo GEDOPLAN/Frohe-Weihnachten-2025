@@ -16,7 +16,6 @@ export class MemoryCard {
   enabled = input<boolean>(true);
   clicked = output<void>();
 
-
   protected cardClick() {
     if(this.enabled()){
       this.clicked.emit();

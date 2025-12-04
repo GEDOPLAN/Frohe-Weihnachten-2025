@@ -1,5 +1,6 @@
-export interface Card{
-    identifier: string;
-    image: string;
-    open: boolean;
+export interface Card {
+  id: string;
+  identifier: string;
+  image: string;
+  open: boolean;
 }
