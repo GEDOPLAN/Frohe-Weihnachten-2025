@@ -1,34 +1,34 @@
 [
   {
     "identifier":  "GED",
-    "image":  "../../../public/cards/g.png"
+    "image":  "./cards/g.png"
   },
   {
     "identifier":  "TIM",
-    "image":  "../../../public/cards/tim.png"
+    "image":  "./cards/tim.png"
   },
   {
     "identifier":  "FISH",
-    "image":  "../../../public/cards/fish.png"
+    "image":  "./cards/fish.png"
   },
   {
     "identifier":  "BEAN",
-    "image":  "../../../public/cards/bean.png"
+    "image":  "./cards/bean.png"
   },
   {
     "identifier":  "PACMAN",
-    "image":  "../../../public/cards/pacman.png"
+    "image":  "./cards/pacman.png"
   },
   {
     "identifier":  "DUKE",
-    "image":  "../../../public/cards/duke.png"
+    "image":  "./cards/duke.png"
   },
   {
     "identifier":  "BERLIN",
-    "image":  "../../../public/cards/berlin.png"
+    "image":  "./cards/berlin.png"
   },
   {
     "identifier":  "CODE",
-    "image":  "../../../public/cards/code.png"
+    "image":  "./cards/code.png"
   }
 ]
