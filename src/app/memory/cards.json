@@ -1,34 +1,34 @@
 [
   {
     "identifier":  "GED",
-    "image":  "../../../../../cards/g.png"
+    "image":  "../../../public/cards/g.png"
   },
   {
     "identifier":  "TIM",
-    "image":  "../../../../../cards/tim.png"
+    "image":  "../../../public/cards/tim.png"
   },
   {
     "identifier":  "FISH",
-    "image":  "../../../../../cards/fish.png"
+    "image":  "../../../public/cards/fish.png"
   },
   {
     "identifier":  "BEAN",
-    "image":  "../../../../../cards/bean.png"
+    "image":  "../../../public/cards/bean.png"
   },
   {
     "identifier":  "PACMAN",
-    "image":  "../../../../../cards/pacman.png"
+    "image":  "../../../public/cards/pacman.png"
   },
   {
     "identifier":  "DUKE",
-    "image":  "../../../../../cards/duke.png"
+    "image":  "../../../public/cards/duke.png"
   },
   {
     "identifier":  "BERLIN",
-    "image":  "../../../../../cards/berlin.png"
+    "image":  "../../../public/cards/berlin.png"
   },
   {
     "identifier":  "CODE",
-    "image":  "../../../../../cards/code.png"
+    "image":  "../../../public/cards/code.png"
   }
 ]
