@@ -1,0 +1,16 @@
+mat-card{
+  height: 100%;
+  width: 100%;
+
+  &.selectable{
+    cursor: pointer;
+  }
+
+  &.closed{
+    background-image: url('/card_back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff; /* Fallback */
+  }
+}

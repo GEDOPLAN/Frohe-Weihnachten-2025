@@ -1,0 +1,7 @@
+@if (card().open) {
+    <mat-card>
+        <img [src]="card().image" [alt]="card().identifier">
+    </mat-card>
+} @else {
+    <mat-card (click)="cardClick()" [class.selectable]="enabled()" class="closed"/>
+}

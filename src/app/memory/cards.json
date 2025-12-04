@@ -1,0 +1,34 @@
+[
+  {
+    "identifier":  "GED",
+    "image":  "/cards/g.png"
+  },
+  {
+    "identifier":  "TIM",
+    "image":  "/cards/tim.png"
+  },
+  {
+    "identifier":  "FISH",
+    "image":  "/cards/fish.png"
+  },
+  {
+    "identifier":  "BEAN",
+    "image":  "/cards/bean.png"
+  },
+  {
+    "identifier":  "PACMAN",
+    "image":  "/cards/pacman.png"
+  },
+  {
+    "identifier":  "XX",
+    "image":  "/cards/XX.png"
+  },
+  {
+    "identifier":  "BERLIN",
+    "image":  "/cards/berlin.png"
+  },
+  {
+    "identifier":  "E",
+    "image":  "tbd"
+  }
+]

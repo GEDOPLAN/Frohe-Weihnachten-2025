@@ -1,0 +1,29 @@
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  /* Pfad anpassen: z.B. /assets/images/background.jpg */
+  background-image: url('/public/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #ffffff; /* Fallback */
+}
+
+/* leichte weiße Transparenz über dem Hintergrund */
+body::before {
+  content: '';
+  position: absolute;
+  inset: 0; /* top:0; right:0; bottom:0; left:0; */
+  background: rgba(255, 255, 255, 0.12); /* anpassen: 0.0 - 0.3 */
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Haupt-App-Inhalt über dem Overlay sicherstellen */
+app-root, .app-root {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+}

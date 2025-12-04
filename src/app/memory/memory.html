@@ -1,0 +1,14 @@
+<mat-card>
+    @for (c of cardsInGame(); track c) {
+        <gedx2025-memory-card [card]="c" (clicked)="toggleCard(c)" [enabled]="!boardDisabled()"></gedx2025-memory-card>
+    }
+</mat-card>
+@if (gameCompleted()) {
+    <div class="message" animate.enter="fade">
+            <img src="/christmas.png" width="100px"/>
+        <h1>
+            GEDOPLAN wünscht frohe Weihnachten
+        </h1>
+            <img src="/christmas.png" width="100px"/>
+    </div>
+}

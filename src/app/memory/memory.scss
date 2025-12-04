@@ -1,0 +1,68 @@
+:host {
+  $playgroundSize: 800px;
+  $playgroundPadding: calc($playgroundSize * 0.025);
+  $cardSize: calc(($playgroundSize - $playgroundPadding * 5) / 4);
+
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  mat-card {
+    width: $playgroundSize;
+    height: $playgroundSize;
+    padding: $playgroundPadding;
+    background-color: var(--mat-sys-surface-container-lowest);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: $playgroundPadding;
+    flex-wrap: wrap;
+
+    gedx2025-memory-card {
+      width: $cardSize;
+      height: $cardSize;
+    }
+  }
+
+  .message {
+    position: fixed;
+    font-size: xx-large;
+    background-color: var(--mat-sys-surface-container-lowest);
+    border-radius: 10px;
+    padding: 1rem;
+    border: 5px solid black;
+
+    display: flex;
+
+    img{
+      flex: 0 0 100px;
+      animation: shakeX 6s ease-in-out infinite alternate;
+    }
+  }
+
+  .fade{
+    animation: fadeIn 5s;
+  }
+
+  @keyframes shakeX {
+    0%   { transform: translateX(-8px); }
+    25%  { transform: translateX( 5px); }
+    50%  { transform: translateX(-6px); }
+    75%  { transform: translateX( 4px); }
+    100% { transform: translateX( 0px); }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+}
